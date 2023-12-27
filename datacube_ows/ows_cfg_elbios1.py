@@ -623,7 +623,7 @@ ows_cfg = {
                     "resource_limits": standard_resource_limits,
                     # Near Real Time datasets are being regularly updated - do not cache ranges in memory.
                     "dynamic": True,
-                    "native_crs": "EPSG:3577",
+                    "native_crs": "EPSG:3857",
                     "native_resolution": [10.0, 10.0],
                     # "flags": {
                     #     "band": "mask25",
