@@ -319,7 +319,7 @@ ows_cfg = {
         # Service URL.
         # A list of fully qualified URLs that the service can return
         # in the GetCapabilities documents based on the requesting url
-        "allowed_urls": ["http://54.188.16.1:8080",
+        "allowed_urls": ["http://54.188.16.1:8080", "http://127.0.0.1:8080/",
                           "http://54.188.16.1:8080/odc_ows"],
         # should be fully qualified
         "info_url": "http://opendatacube.org",
