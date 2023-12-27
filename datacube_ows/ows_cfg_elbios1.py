@@ -394,16 +394,16 @@ ows_cfg = {
                 "geographic": True,
                 "vertical_coord_first": True
             },
-            # "EPSG:32634": {  # VicGrid94 for delwp.vic.gov.au
-            #    "geographic": False,
-            #     "horizontal_coord": "x",
-            #     "vertical_coord": "y",
-            # },
-            # "EPSG:32635": {  # GDA-94, internal representation
-            #     "geographic": False,
-            #     "horizontal_coord": "x",
-            #     "vertical_coord": "y",
-            # },
+            "EPSG:32634": {  # VicGrid94 for delwp.vic.gov.au
+               "geographic": False,
+                "horizontal_coord": "x",
+                "vertical_coord": "y",
+            },
+            "EPSG:32635": {  # GDA-94, internal representation
+                "geographic": False,
+                "horizontal_coord": "x",
+                "vertical_coord": "y",
+            },
         },
     },   #### End of "global" section.
 
